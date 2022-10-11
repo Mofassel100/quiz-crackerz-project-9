@@ -4,6 +4,7 @@ import Cart from './Cart/Cart';
 
 const Home = () => {
     const DataLoad = useLoaderData()
+    console.log(DataLoad)
     const QuizData = DataLoad.data;
   
     return (
