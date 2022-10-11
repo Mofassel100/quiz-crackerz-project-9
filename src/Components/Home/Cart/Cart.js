@@ -19,7 +19,7 @@ const Cart = ({ learningData }) => {
                     <h2 className="card-title">{name}</h2>
 
                     <div className="card-actions">
-                        <button className="btn btn-primary"><Link to={`cartdetails/${id}`} aria-labal='View Item'>Details</Link></button>
+                        <button className="btn btn-primary"><Link to={`/cart/${id}`} >Details</Link></button>
                     </div>
                 </div>
             </div>

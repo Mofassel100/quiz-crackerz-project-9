@@ -6,17 +6,15 @@ const Header = () => {
         <div className=''>
                <div className="navbar bg-base-100 ">
   <div className="flex-1">
-    <a className="btn btn-ghost normal-case text-xl">Education Learning</a>
-  </div>
-  <div className="flex-none">
-    <ul className="menu menu-horizontal p-0">
-      <li><a href='home'>Home</a></li>
-     
-    
-      <li><a href='statistic'>Statistic</a></li>
-      <li><a href='blog'>Blog</a></li>
-    </ul>
+    <Link className="btn btn-ghost normal-case text-2xl text-blue-700"> Education Learning</Link>
    
+  </div>
+  <div className=" text-green-600 ">
+    <Link className='mx-3 text-xl' to="home">Home</Link>
+    <Link to={'linechart'}>LinChart</Link>
+
+    <Link className='mx-3 text-xl' to={'blog'}>Blog</Link>
+ 
   </div>
  
 </div>
