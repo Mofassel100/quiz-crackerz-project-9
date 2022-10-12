@@ -1,6 +1,7 @@
 import React from 'react';
 import { Line, LineChart, ResponsiveContainer, XAxis,YAxis } from 'recharts';
 const Chart = ({chartData}) => {
+    console.log(chartData)
     return (
         <div>
         <ResponsiveContainer width='90%' aspect={3}>

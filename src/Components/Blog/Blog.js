@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
     return (
         <div>
-            <div className="card w-full bg-neutral text-neutral-content m-4 mr-5">
+            <div className="card w-full bg-neutral text-neutral-content m-2 ">
 
                 <div className="card-body items-center text-center">
                     <h2 className="card-title text-5xl"> What is the purpose of the react router ?</h2>

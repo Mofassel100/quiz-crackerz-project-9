@@ -9,7 +9,6 @@ const CardDetail = () => {
     return (
         <div>
             <div>
-
                 <h1 className='text-5xl text-lime-500 '>{name}</h1>
                 <div>
                     {questions.map(allQiestion => <QiestDetail key={allQiestion.id} allQiestion={allQiestion} name={name}></QiestDetail>)}
