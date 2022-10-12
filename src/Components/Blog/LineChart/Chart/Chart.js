@@ -4,7 +4,7 @@ import { Line, LineChart, ResponsiveContainer, XAxis } from 'recharts';
 
 
 const Chart = ({chartData}) => {
-    console.log(chartData)
+    
     
     
     return (

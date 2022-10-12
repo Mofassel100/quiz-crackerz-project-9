@@ -3,9 +3,9 @@ import { useLoaderData } from 'react-router-dom';
 import Cart from './Cart/Cart';
 
 const Home = ({allData}) => {
-    console.log(allData)
+    
     const DataLoad = useLoaderData()
-    console.log(DataLoad)
+    
   
     const QuizData = DataLoad.data;
   

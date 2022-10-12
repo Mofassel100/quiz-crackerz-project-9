@@ -1,11 +1,13 @@
-import React from 'react';
+// import React from 'react';
 
-const QieOption = ({op}) => {
-    return (
-        <div>
-            <button>1. {op}</button>
-        </div>
-    );
-};
+// const QieOption = ({op,id ,name}) => {
+//     console.log(op)
+//     return (
+//         <div>
+          
+//             {/* <button className='bg-primary'> {op}</button> */}
+//         </div>
+//     );
+// };
 
-export default QieOption;
+// export default QieOption;
