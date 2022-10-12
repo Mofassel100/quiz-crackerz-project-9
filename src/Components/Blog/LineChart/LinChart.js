@@ -8,7 +8,7 @@ const LinChart = () => {
         <div>
             <div>
                 <div className='my-3'>
-                    <h1 className='text-violet-700 text-2xl my-4'> Line Chart</h1>
+                    <h1 className='text-violet-700 text-3xl my-4'> Line Chart</h1>
                     {<Chart chartData={chartData} key='dd'></Chart>}</div>
             </div>
         </div>

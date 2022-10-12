@@ -1,5 +1,5 @@
 
-import { faEye, faIdBadge } from '@fortawesome/free-solid-svg-icons';
+import { faEye } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
 import { ToastContainer, toast } from 'react-toastify';
@@ -16,21 +16,14 @@ const QiestDetail = ({ allQiestion, name }) => {
             toast.error('Wrong answer !', { position: toast.POSITION.TOP_CENTER })
         }
     }
-    const correctAnswerClicket = (correctAnswer)=>{
-
-        if( correctAnswer){
-            toast(`${correctAnswer}`, { position: toast.POSITION.TOP_CENTER })
-            console.log('ami corrext')
-        }
+    const correctAnswerClicket = (correctAnswer) => {
+        toast(`${correctAnswer}`, { position: toast.POSITION.TOP_CENTER })
     }
     return (
         <div className='border m-4 rounded bg-teal-400'>
             <div className='grid justify-end m-5'>
-
-            <button  onClick={()=> correctAnswerClicket(correctAnswer)}><FontAwesomeIcon className='text-primary' icon={faEye}></FontAwesomeIcon></button>
+                <button onClick={() => correctAnswerClicket(correctAnswer)}><FontAwesomeIcon className='text-primary' icon={faEye}></FontAwesomeIcon></button>
             </div>
-            
-            
             <p className='text-2xl text-blue-700 p-4'>{question}</p>
             <div className='text-red-500 grid md:grid-cols-3 lg:grid-cols-4 gap-3 m-5'>
                 {options.map((qOption) =>
